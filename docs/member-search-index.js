@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.masterj.currencyconverter","c":"CurrencyConverter","l":"CurrencyConverter()","url":"%3Cinit%3E()"},{"p":"com.masterj.currencyconverter","c":"CurrencyConverter","l":"main(String[])","url":"main(java.lang.String[])"}]

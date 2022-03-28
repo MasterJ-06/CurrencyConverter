@@ -14,11 +14,30 @@ import org.json.JSONObject;
 
 public class CurrencyConverter {
     static Scanner read = new Scanner(System.in);
+    /**
+     * This variable is the 3 letter abbreviation of the currency to convert
+     */
     static String fromCurrency;
+    /**
+     * This variable is the 3 letter abbreviation of the currency to convert to
+     */
     static String toCurrency;
+    /**
+     * This variable is the amount of currency to convert
+     */
     static double amount;
+    /**
+     * This variable is the converted amount of currency
+     */
     static double newAmount;
 
+    /**
+     * This method contains the converter
+     * @param args none
+     * @throws IOException
+     * @throws InterruptedException
+     * @throws URISyntaxException
+     */
     public static void main(String[] args) throws IOException, InterruptedException, URISyntaxException {
         Console console = System.console();
         if (console == null && !GraphicsEnvironment.isHeadless()) {
